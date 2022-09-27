@@ -3,3 +3,5 @@ export declare type DataFetchStatus = {
   isReady: boolean;
   isError: boolean;
 };
+
+export declare type ValueOf<T> = T[keyof T];
