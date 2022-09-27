@@ -1,5 +1,5 @@
 import { expectAssignable, expectNotAssignable } from "tsd";
-import type { Rating } from "./types";
+import type { Rating } from "../dist";
 
 export const a: Rating = "4.20";
 

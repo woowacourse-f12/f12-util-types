@@ -4,9 +4,9 @@
     "lib": ["es6"],
     "baseUrl": ".",
     "outDir": "dist",
-    "rootDir": ".",
-    "noEmit": true
+    "rootDir": "./src",
+    "declaration": true
   },
-  "include": ["lib"],
-  "exclude": ["node_modules"]
+  "include": ["src"],
+  "exclude": ["node_modules", "__tests__"]
 }
